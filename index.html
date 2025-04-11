@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOW - Download do Jogo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <header>
+        <div class="container">
+            <h1 class="logo">RAIDEN GODS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#trailer">Trailer</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal com a Imagem -->
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="PP.jpg" alt="Novos Personagens DOW" class="dow-image">
+            <h2>BAIXE AGORA O NOVO JOGO</h2>
+            <p>Versão completa com novos personagens e mapas exclusivos!</p>
+            <a href="#downloads" class="btn-download">DOWNLOAD</a>
+        </div>
+    </section>
+
+    <!-- Seção do Vídeo -->
+    <section id="trailer" class="video-section">
+        <div class="container">
+            <h2>Trailer Oficial</h2>
+            <div class="video-container">
+                <!-- Vídeo do YouTube (substitua o ID) -->
+                <iframe 
+                    src="jujutsu-kaisen-x-king-gnu---mmv-maki-vs-zenin-clan--perfect-preparation.mp4" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                
+                <!-- OU Vídeo local -->
+                <!--
+                <video controls poster="thumbnail.jpg">
+                    <source src="trailer.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Downloads -->
+    <section id="downloads" class="download-section">
+        <div class="container">
+            <h2>Downloads</h2>
+            <div class="download-grid">
+                <!-- PC -->
+                <div class="download-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Versão PC</h3>
+                    <p>Windows 10/11 (64-bit)</p>
+                    <a href="downloads/jogo-pc.zip" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar (2.5GB)
+                    </a>
+                    <div class="requirements">
+                        <p><strong>Requisitos:</strong> Intel i5, 8GB RAM, GTX 1060</p>
+                    </div>
+                </div>
+                
+                <!-- Android -->
+                <div class="download-card">
+                    <i class="fab fa-android"></i>
+                    <h3>Versão Mobile</h3>
+                    <p>Android 9.0+</p>
+                    <a href="downloads/jogo-android.apk" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar (1.2GB)
+                    </a>
+                    <div class="requirements">
+                        <p><strong>Requisitos:</strong> 4GB RAM, Snapdragon 665+</p>
+                    </div>
+                </div>
+                
+                <!-- iOS -->
+                <div class="download-card">
+                    <i class="fab fa-apple"></i>
+                    <h3>Versão iOS</h3>
+                    <p>iPhone 8 ou superior</p>
+                    <a href="https://apps.apple.com/br/app/dow-jogo/id12345" class="btn-download" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> App Store
+                    </a>
+                    <div class="requirements">
+                        <p><strong>Requisitos:</strong> iOS 14.0+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre o Jogo</h3>
+                    <p>DOW é um jogo de aventura com batalhas épicas e personagens únicos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 DOW Games. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
